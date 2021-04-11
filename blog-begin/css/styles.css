@@ -6,8 +6,6 @@ html {
 }
 body {
     font-family: 'Open Sans', sans-serif;
-    /* border: 3px solid red; */
-    /* margin: 0 10rem; */
     width: 80%;
     margin: 0 auto;
 
@@ -41,7 +39,6 @@ footer {
 }
 header {
     display: flex;
-    /* justify-content: center; */
     flex-flow: row nowrap;
     justify-content: space-between;
 }
@@ -57,11 +54,9 @@ header .rightheader {
 header h1 {
     color: plum;
     font-size: 3rem;
-    /* border: 3px solid yellow; */
     margin-bottom: 0px;
 }
 header p {
-    /* border: 3px solid red; */
     margin-top: 0;
 }
 nav {
@@ -76,20 +71,16 @@ nav ul {
 }
 nav li {
     display: inline-block;
-    /* border: 1px solid red; */
     width: 5rem;
-    
 }
 nav a {
     text-decoration: none;
     display: block;
-    padding: 0.3rem 0;
-    
+    padding: 0.3rem 0; 
 }
 nav a:hover {
     background-color: black;
     color: lightgreen;
-    /* text-decoration: none; */
 }
 article{
     margin: 2rem 0;
